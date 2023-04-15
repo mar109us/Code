@@ -6,16 +6,27 @@ Write an if condition to check that age is between 14 and 90 inclusively.
 
 */
 
+// let age = prompt("what is your age?");
+
+// if (age >= 14 && age <= 90)
+// {
+//     alert("Age is between 14 and 90");
+// }
+
+// else
+// {
+//     alert("Age is out of limits");
+// }
+
+
 let age = prompt("what is your age?");
 
-if (age >= 14 && age <= 90)
-{
-    alert("Age is between 14 and 90");
-}
-
-else
+if (age < 14 || age > 90)
 {
     alert("Age is out of limits");
 }
 
-
+else
+{
+    alert("Age is between 14 and 90");
+}
