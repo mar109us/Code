@@ -23,4 +23,3 @@ while (+number > 0) {
 
 binaryStorage.reverse();
 alert(originalNumber + " = " + binaryStorage.join("") + " in binary");
-
