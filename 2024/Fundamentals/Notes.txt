@@ -1,0 +1,25 @@
+JS can be inserted anywhere in an html file with <script> tag
+
+old html (html4) required scripts to have a type
+
+<script type="text/javascript"> <!-- COMMENTS //--> </script> === really old code, ancient stuff, was meant for older browser that couldnt run JS
+
+script files are attached to html with the src attribute:
+<script src="/path/to/script.js"></script>
+
+./ === script is in current folder
+
+or can give full url
+
+can also use multiple scripts
+
+only simple scripts are put in html files
+
+___________
+
+statements are syntax constructs and commands that perform actions.
+
+alert() = statement
+
+semicolon is used to seperate statements ;;;;;;;;;
+
