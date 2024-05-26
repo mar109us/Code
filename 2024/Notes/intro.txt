@@ -1,0 +1,33 @@
+ECMA-262 = Definiton av JS 
+
+"ECMAScript is a standard for scripting languages, including JavaScript, JScript, and 
+ActionScript. It is best known as a JavaScript standard intended to ensure the interoperability 
+of web pages across different web browsers."
+
+ECMAScript is a cross-platform, general-purpose scripting language and is not tied 
+to web browsers alone. ECMA-262 defines the standards based on which more-robust 
+scripting language may be built. ECMA-262 defines the following parts of the language 
+and does not refer to web browsers at all
+
+Syntax
+Types
+Statements
+Keywords
+Reserved Words
+Operators
+Global Objects
+
+https://262.ecma-international.org/
+
+Reddit: What is ECMAScript and why does it matter?
+Basically, anything we call JavaScript is actually ECMAScript. 
+JavaScript as a name is actually copyrighted, so it cannot be used as the official name of the language. 
+ECMA, the group that maintains and updates the specifications for the language, lends their name to the 
+newer specifications, resulting in the ECMAScript name. This is why the new version 
+of JavaScript is referred to as ES6 or ES2015.
+
+https://www.caniuse.com = browser support info
+https://kangax.github.io/compatable = Same
+
+F12 = dev mode in browser
+
