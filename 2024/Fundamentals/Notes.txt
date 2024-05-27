@@ -23,3 +23,48 @@ alert() = statement
 
 semicolon is used to seperate statements ;;;;;;;;;
 
+if no semicolon before a bracket [] js will not autofill a semicolon ;
+
+ex 
+alert()
+[1].forEach(alert); 
+= 
+alert()[1].forEach(alert);
+
+alert();
+[1].forEach(alert); 
+=
+alert();
+[1].forEach(alert); 
+
+it is safer to use semicolons ;
+
+comments = //
+
+multiline comment =
+/*
+*/
+
+comment hotkey = ctrl + k + c
+
+use strict = "modern" javascript
+it goes on top of scripts
+
+
+to check if a website is strict, open console and insert code:
+
+function isStrictMode() {
+    return (typeof this == 'undefined');
+}
+
+
+from reddit: 
+Use strict necessary?
+
+It's not necessary, but its helpful. It catches issues you might otherwise 
+have missed, for example throwing errors in cases where when not in strict mode, 
+things would simply silently fail with you none the wiser.
+
+Note that anything inside a class block is already in strict mode, 
+as is all code in modules. If you're only writing code for 
+modules, you won't have to include "use strict" anywhere because its already implied.
